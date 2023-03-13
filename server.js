@@ -23,7 +23,7 @@ async function start() {
 }
 
 
-app.use("/products", require("./src/Routes/ProductRoutes"));
+app.use("/", require("./src/Routes/ProductRoutes"));
 
 app.use('/report', require("./src/Routes/ReportRouter"));
  
